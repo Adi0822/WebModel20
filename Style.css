@@ -1,0 +1,393 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+
+h1{
+	color: red;		/**It changes the colour of the font in rgb orientation.**/
+	font-weight: bold;			/**It puts the font weight.**/
+	font-family: Lucida hand-writing, Sans-serif, verdana;	/**It lets you select the family of fonts and it is in sequence.**/
+	font-size: 50px;
+	font-weight: inherit;			/**It provides you with the size of the font.**/
+	font-style: italic;
+	font-style: oblique;
+	text-shadow: 2px 2px #EEF43F;
+	visibility: visible;
+
+	/*word-spacing: 20px;
+	letter-spacing: 20px;*/
+
+
+}
+#Nav{
+	float: left;
+
+}
+h1:hover{
+	color: purple;
+	font-weight: bold;
+
+}
+
+body{
+	color: rgb(10,20,50);				/**It changes the colour of the font in rgb orientation.**/
+
+}
+marquee{
+	padding: 20px;
+	margin: 0px;
+	font-weight: bold;
+	border-bottom: 1px red solid;
+	border: 2px red solid;
+	border-radius: 2px;
+	background: linear-gradient(#B2AEB5,#B2CEAD);
+}
+marquee:hover{
+	color: rgba(200,100,10,2);
+	font-size: 26px;
+	background: linear-gradient(lightgray,lightcyan);
+}
+.form{
+	border: 2px #ccc solid;
+	border-style: ridge;
+	padding: 20px;
+	padding-top: 20px;
+	border-style: ridge;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background: lightgray;
+	box-shadow: gray 20px;
+	
+}
+.form-1{
+	padding-right: 400px;
+	padding-left: 400px;
+	background: url("Nagraj.jpg") no-repeat;
+	border-style: ridge;
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-size: 100% 100%;
+	
+}
+table{
+	border: 2px black solid;
+}
+td{
+	border: 1px black solid;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+th{
+	border: 1px black solid;
+	padding: 5px;
+}
+
+font{
+	padding-left: 20px;
+}
+#title{
+	padding-left: 20px;
+	font-family: verdana;
+	text-align: left;
+	padding-left: -200px;
+	position: relative;
+	left: -200px;
+	
+
+}
+
+header{
+	background: linear-gradient(green,white,pink,gray, #EC7878, purple);
+	 padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+  text-shadow: yellow;
+
+}
+.mod{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  padding-left: 200px;
+
+}
+
+header a{
+	color: red;
+  text-decoration:blink;
+  text-transform: uppercase;
+  font-size:16px;
+  padding-left: 10px;
+  	border-bottom: #e8491d 3px box-shadow;
+
+}
+header li{
+	float: left;
+	display: inline;
+	padding-left: 10px;
+	font-family: verdana;
+	font-weight: bold;
+	border: 2px gray solid;
+	margin-left: 20px;
+	padding-right: 10px;
+	background-color: cyan;
+	border-radius: 30px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	/*list-style-type: lower-greek;*/
+
+}
+header li:hover{
+	color: red;
+	background: rgba(160,100,280,2);
+	border-color: magenta;
+}
+header nav{
+	float: right;
+	background: transparent;
+	margin-top: 10px;
+	border: 0.4px gray box-shadow;
+	border-radius: 30px;
+	background: transparent;
+	position: absolute;
+	right: 2px;
+
+}
+ header #mynav{
+ 	float: left;
+ 	padding-right: 200px;
+
+
+
+ }
+header .first a{
+  color:#e8491d;
+  font-weight:bold;
+}
+.box{
+	float: left;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 20px;
+	padding: 20px;
+	border: lightgray 40px solid;
+	background: linear-gradient(#6488BA,#A97AD5,#AC4C4C);
+	box-shadow: 0 0 10px rgba(0,0,0,1)
+	/*direction: ltr;*/
+
+}
+.wh{
+	padding-left: -2px
+	background: #5DC2A5;
+}
+.mod2{
+	float: left;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 20px;
+	padding: 20px;
+	border: lightgray 40px solid;
+	background: linear-gradient(lightgreen,lightpink,lightblue,lightcyan)
+	/*direction: rtl;*/
+
+}
+
+#raju{
+	float: right;
+	display: inline;
+	padding-top: -200px;
+	margin-top: -100px;
+	margin-right: 50px;
+	border: 2px red solid;
+	border-radius: 10px;
+}
+#fn{
+	
+}
+#ln{
+	
+}
+.ti{
+	color: #F23509;
+
+}
+.ran{
+	color: #FFFFFF;
+	padding-left: -0px;
+	margin-left: -5px;
+}
+.ga{
+	color: #07470C;
+	padding-left: 0px;
+	margin-left: -5px;
+}
+.mainbox{
+	background: url("Nagraj1.jpg");
+	padding: 0px;
+	margin-top: -2px;
+}
+.list{
+	margin-top: 20px;
+	color: red;
+	margin-left: 20px;
+}
+.table{
+	margin-top: 10px;
+	border: 8px #35315F solid;
+	margin: 50px auto;
+	padding: 20px;
+	background-image: url("Dhruva.jpg");
+}
+table{
+	margin-left: 70px;
+	color: #C7D219;
+	margin-right: 700px;
+
+}
+.linetable{
+	line-height: 10px;
+	border: 8px #634646 solid;
+}
+body{
+	background: url("Background.jpg") no-repeat;
+	 background-repeat: no-repeat;
+  background-size: 100% 90%;
+
+}
+.list2{
+	background: url("Nagraj1.jpg");
+	margin-top: 8px;
+
+}
+.listo{
+	color: #B1E5EA;
+}
+.listo:hover{
+	/*transform: scale(2);*/
+	transform: translate(120px,120px);    /*skew(20deg, 25deg); /*rotate(90deg);*/
+
+}
+.super{
+	color: #E85279;
+	font-stretch: all;
+	font-weight: bold;
+	margin-left: -20px;
+	background: linear-gradient(lightgray,lightcyan);
+	margin-right: 70%;
+}
+a:active{
+	color: cyan;
+	background: #322424;
+	border: 4px magenta solid;
+}
+a:selected{
+	color: cyan;
+	background: #322424;
+	border: 4px magenta solid;
+}
+.featuring{
+	text-shadow: 2px 2px 2px #EFF711;
+	animation-name: anime;
+	animation-duration: 8s;
+	animation-delay: 1s;
+	animation-iteration-count: 100;
+
+}
+@keyframes anime{
+
+	0% { color: yellow; left:0px; top: 0px; }
+	0% { color: red; left:300px; top: 0px; }
+	0% { color: green; left:300px; top: 300px; }
+	0% { color: pink; left:0px; top: 300px; }
+	0% { color: yellow; left:0px; top: 0px; }
+}
+.featuring:hover{}
+#submit{
+	border-radius: 20px;
+	box-shadow: all;
+	border-color: green;
+	background-color: gray;
+
+}
+#submit:active{
+	background: linear-gradient(red,green,blue,pink,white,gray);
+}
+
+#reset{
+	border-radius: 20px;
+	border-color: orange;
+	background-color: gray;
+}
+#reset:active{
+	background: linear-gradient(red,green,blue,pink,white,gray);
+}
+footer{
+	background: black;
+	color: white;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#para1:before{
+	content: "12432";
+	cursor: crosshair;
+	outline: black;
+	text-decoration: line-through/overline,etc.;
+
+}*/
+
+/**p:first-letter{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+/**li:nth-child(2n){
+	border: 2px green solid;
+
+}
+/**
+<-!@media(min-width: 500px){				/**Transitions on the basis of window activities.**/
+		/**body{
+			background-color: cyan;		/**Changes background upon reaching the limit.**/
+
+		}
+}
+/**@media(min-width: 700px){
+		body{
+			background-color: rgb(200, 100, 100);	/**Changes background upon reaching the limit.**/
+			
+		}
+	}
+/** @media(min-width: 1000px){
+		body{
+			background-color: rgb(200, 100, 100);		/**Changes background upon reaching the limit.**/
+			
+		}
+	} 
